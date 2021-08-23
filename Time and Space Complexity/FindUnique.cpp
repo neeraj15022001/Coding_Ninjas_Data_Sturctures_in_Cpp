@@ -20,7 +20,7 @@ Sample Output :
 	
 	
 #include <bits/stdc++.h> 
-int FindUnique(int ar[], int ar_size){
+int findUnique(int ar[], int ar_size){
 
     int res = ar[0]; 
         for (int i = 1; i < ar_size; i++) 
