@@ -22,7 +22,7 @@ Sample Output:
 // arr - input array
 // size - size of array
 
-int MissingNumber(int arr[], int size){
+int findDuplicate(int arr[], int size){
     int *count = new int[sizeof(int)*(size - 2)];  
     int i;  
           
