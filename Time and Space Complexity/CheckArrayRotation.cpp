@@ -23,7 +23,7 @@ Sample Output 2:
 
 
 
-int FindSortedArrayRotation(int arr[], int n) {
+int arrayRotateCheck(int arr[], int n) {
 
     int min = arr[0], min_index; 
     for (int i=0; i<n; i++) 
@@ -39,7 +39,7 @@ int FindSortedArrayRotation(int arr[], int n) {
 
 
 // SOLUTION
-int FindSortedArrayRotation(int *input, int size) {
+int arrayRotateCheck(int *input, int size) {
     int left = 0;
     int right = size - 1;
     while (left < right) { 
